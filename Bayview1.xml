@@ -23,6 +23,17 @@
             </value>
           </block>
         </value>
+        <statement name="DO0">
+          <block type="movement_left" id="326">
+            <next>
+              <block type="movement_forward" id="368">
+                <next>
+                  <block type="movement_right" id="358"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
         <next>
           <block type="robot_delay" id="179" inline="true">
             <value name="DELAY">
@@ -36,15 +47,6 @@
     </statement>
     <next>
       <block type="movement_stop" id="177"></block>
-    </next>
-  </block>
-  <block type="movement_left" id="326" x="323" y="190">
-    <next>
-      <block type="movement_forward" id="368">
-        <next>
-          <block type="movement_right" id="358"></block>
-        </next>
-      </block>
     </next>
   </block>
 </xml>
