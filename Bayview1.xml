@@ -24,11 +24,11 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_left" id="326">
+          <block type="movement_forward" id="368">
             <next>
-              <block type="movement_right" id="358">
+              <block type="movement_left" id="326">
                 <next>
-                  <block type="movement_forward" id="368"></block>
+                  <block type="movement_right" id="358"></block>
                 </next>
               </block>
             </next>
